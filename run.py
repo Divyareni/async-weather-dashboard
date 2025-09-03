@@ -1,6 +1,5 @@
-import tkinter as tk
+from app.gui import WeatherApp
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    root.title('Weather dashboard')
-    root.mainloop()
+    WeatherApp().run()
+
